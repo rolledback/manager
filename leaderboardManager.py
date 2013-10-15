@@ -20,7 +20,7 @@ while 1:
               'Insane', 'Insane Perfect',
               'Num Achievements')
     
-  register('43b1wG09syjYsstMxzNNFAYA2xRQ7EHSZLnNt34z', '0hd57bxJOijeDn6r4iMxwxJ3jSK3McXJI9hcjqL2')
+  register(#keys redacted)
   leaderboardString = ''
   print time()
   try:
