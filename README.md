@@ -1,2 +1,1 @@
-manager
-=======
+This is the code for the script I have for the backed side of my Patterns Android app. Currently this script queries for data off of my Parse database using ParsePy (https://github.com/dgrtwo/ParsePy), an open source API for accessing data on Parse. The script usually takes around 10 seconds to run, with a max runtime of about 15 seconds (30 MB/s Internet connection, w/20,000 documents in the database). More features are to be added soon for the analyzing of analytic data I have been collecting on what game varieties are played/what activities are accessed by players.
