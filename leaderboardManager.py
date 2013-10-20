@@ -46,4 +46,14 @@ if __name__ == '__main__':
           if rank > 5:
             break
      print leaderboardString, "\n\n"
+     print 'Querying for current board'
+     Delete current leaderBoard, should only be one, but use for loop just in case
+     currentBoards = LeaderboardObject.Query.all()
+     for board in currentBoards:
+       board.delete()
+     Create new leaderboard with the stats just generated
+     leaderboardObject = LeaderboardObject(string = leaderboardString, time = str(time()))
+     leaderboardObject.save()
+     print 'done'
      sleep(30)
+
